@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="todo-container">
+        <div class="todo-card" id="backlog">
+            <h3>Backlog</h3>
+            <div class="todo-list">
+                <div class="todo-item">
+                    Task 1
+                    <button class="nav-btn left" disabled><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="nav-btn right"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="todo-item">
+                    Task 2
+                    <button class="nav-btn left" disabled><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="nav-btn right"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="todo-item">
+                    Task 3
+                    <button class="nav-btn left" disabled><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="nav-btn right"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="todo-card" id="todo">
+            <h3>To Do</h3>
+            <div class="todo-list">
+                <div class="todo-item">
+                    Task 4
+                    <button class="nav-btn left"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="nav-btn right"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="todo-item">
+                    Task 5
+                    <button class="nav-btn left"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="nav-btn right"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="todo-item">
+                    Task 6
+                    <button class="nav-btn left"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="nav-btn right"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="todo-card" id="ongoing">
+            <h3>Ongoing</h3>
+            <div class="todo-list">
+                <div class="todo-item">
+                    Task 7
+                    <button class="nav-btn left"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="nav-btn right"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="todo-item">
+                    Task 8
+                    <button class="nav-btn left"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="nav-btn right"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="todo-card" id="done">
+            <h3>Done</h3>
+            <div class="todo-list">
+                <div class="todo-item">
+                    Task 9
+                    <button class="nav-btn left"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="nav-btn right" disabled><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="todo-item">
+                    Task 10
+                    <button class="nav-btn left"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="nav-btn right" disabled><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
